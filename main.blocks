@@ -4,22 +4,4 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="sFcGhZQ)t`}oWtwj.59q" x="415" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="motobit_enable" id="Joi~}r`koR=oIb@NYOvL"><field name="command">MotorPower.On</field><next><block type="motobit_setMotor" id="umgU]BN_%!19(,OOw,K`"><field name="motor_number">Motor.Left</field><field name="path">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="l,g0Qq5$)dpwe`h{[Cec"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">39</field></shadow></value><next><block type="motobit_setMotor" id="n_:G3UQ6K#j7!)@l-~c*"><field name="motor_number">Motor.Right</field><field name="path">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="e$`;;Q+k+pL0eGRimI;X"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_show_leds" id="{pkr#?A.6;nH|s|F3F*;"><field name="LEDS">`
-        . . # . . 
-        . # . . . 
-        # # # # # 
-        . # . . . 
-        . . # . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="iDqB,T@8RDKKj{{~7%t." x="879" y="1"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="motobit_enable" id="!I:)2sNAv:qv*IwfF+ZZ"><field name="command">MotorPower.On</field><next><block type="motobit_setMotor" id="0O.`hbq!sM_:cXdYi*t9"><field name="motor_number">Motor.Left</field><field name="path">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="apqXq8O#lPvNI8!S%[ff"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="motobit_setMotor" id=";8j(b`[_e6)VKJyW1Wir"><field name="motor_number">Motor.Right</field><field name="path">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="m0%$]2hP%+|}kkw^G{G?"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">30</field></shadow></value><next><block type="device_show_leds" id="3Q{81}Ze`3jCe?(Qqq[D"><field name="LEDS">`
-        . . # . . 
-        . . . # . 
-        # # # # # 
-        . . . # . 
-        . . # . .
-        `</field></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="N~%/!t.GSQy|ujzZL=]6" x="-1" y="416"></block><block type="device_button_event" id="yo+k;z[QkH:Q!C3)b8D$" x="650" y="488"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="motobit_enable" id="~ntI.D=hJhwQYKhN0tha"><field name="command">MotorPower.Off</field><next><block type="device_show_leds" id="U#OC|i]aUZ%zxX#xQMPg"><field name="LEDS">`
-        . . # . . 
-        . # . # . 
-        # . . . # 
-        . # . # . 
-        . . # . .
-        `</field></block></next></block></statement></block></xml>
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="1%}iyGVm71$1k8N=,Zw1" x="592" y="168"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="motobit_enable" id="j|0i@)0e4i%K3bPiaKE{"><field name="command">MotorPower.On</field><next><block type="motobit_setMotor" id="e(6]-GAl$hR_L[-eN0pI"><field name="motor_number">Motor.Left</field><field name="path">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="7`!CSRIYOXFd0,^%@ocf"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">30</field></shadow></value><next><block type="motobit_setMotor" id="q::3T)f=VNC(cW`kbN*|"><field name="motor_number">Motor.Right</field><field name="path">MotorDirection.Forward</field><value name="speed"><shadow type="math_number_minmax" id="[Hu;OY03H%##7%p^-|t."><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">30</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id="N~%/!t.GSQy|ujzZL=]6" x="-1" y="416"></block><block type="device_button_event" id="Kz*^EH^Y{D1Y*pvm@7Y+" x="590" y="500"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="motobit_enable" id="^u*$1p#hg~zk~Qy76dvi"><field name="command">MotorPower.Off</field></block></statement></block></xml>
